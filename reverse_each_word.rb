@@ -1,4 +1,4 @@
-def mainword = ["Hello there, and how are you?"]
+def mainword = ["Hello there, and how are you?"].split
 def reverse(string)
   mainword.each do |mainword|
     puts mainword.reverse
