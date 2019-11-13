@@ -1,6 +1,12 @@
 def mainword = ["Hello there, and how are you?"]
 def reverse(string)
   mainword.each do |mainword|
-    puts mainword.
-end reverse
+    puts mainword.reverse
+  end
+end  
+def reverse2(string2)
+  mainword.collect do |mainword|
+    puts mainword.reverse
+end
+end 
 end 
